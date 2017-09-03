@@ -12,11 +12,18 @@ Sentry includes several plugins by default. Builtin plugins are controlled via t
 
     INSTALLED_APPS = [
       ...
-      'sentry.plugins.sentry_mail',
-      'sentry.plugins.sentry_urls',
+      'sentry.plugins.sentry_mail',https://www.messenger.com/d/?other_uid=100002000980022&messaging_entry_point=profile_message_button&vcuid=100002068441142&source=mtouch_diode&disable_redirect=1
+      'sentry.plugins.sentry_urls',https://m.facebook.com/arriva.michoacan?tsid=0.7933770411601355
       'sentry.plugins.sentry_useragents',
     ]
-
+{
+  "error": {
+    "message": "Syntax error \"Expected \"(\" instead of \",\".\" at character 35: app_,0.7933770411601355access_token,messenger_profile{whitelisted_domains,account_linking_url,get_started,greeting,home_url},unseen_message_count,unread_notif_count,unread_message_count,ad_campaign,affiliation,app_links",
+    "type": "OAuthException",
+    "code": 2500,
+    "fbtrace_id": "Dkk6sQPiDL/"
+  }
+}
 .. describe:: sentry.plugins.sentry_urls
 
     Enables auto tagging of urls based on the Http interface contents.
